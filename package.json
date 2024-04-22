@@ -1,15 +1,19 @@
 {
-  "name": "000node",
+  "name": "start",
   "version": "1.0.0",
   "description": "introduccion nodejs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodejs start"
   },
   "keywords": [
     "nodejs"
   ],
   "author": "hrMarquez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "color": "^4.2.3"
+  }
 }
